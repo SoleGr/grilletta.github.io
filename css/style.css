@@ -63,9 +63,9 @@ body {
     color: #333;
 }
 
-.bg-dark{
-    background: #2f3542;
-    color: #fff;
+.bg-warm{
+    background:#c9bfb3;
+    color: #333;
 }
 
 .d-block {
@@ -76,10 +76,19 @@ body {
     object-fit: scale-down;
     height: 70vh;
     width: 100%;
-    background: #2f3542;
-  }
+    background: #c9bfb3;
+}
+
 .services{
     padding: 2rem 0;
+}
+
+.admin:after{
+    content: "admin\40 grilletta.com.ar";
+}
+
+.info:after{
+    content: "info\40 grilletta.com.ar";
 }
 
 footer{
@@ -90,7 +99,7 @@ footer p {
     margin: 0;
 }
 
-@media(max-width 560px) {
+@media(max-width 560 px){
     .header::after{
         height: 50vh;
     }
