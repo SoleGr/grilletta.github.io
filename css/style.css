@@ -76,6 +76,7 @@ body {
     object-fit: scale-down;
     height: 70vh;
     width: 100%;
+    background: #2f3542;
   }
 .services{
     padding: 2rem 0;
