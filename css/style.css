@@ -8,11 +8,11 @@ body {
 .navbar.navbar-light.navbar-expand-lg.bg-white.page-navbar {
     box-shadow:0 4px 10px rgba(0, 0, 0, 0.1);
 }
-  
+
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     font-weight:bold;
 }
-  
+
 .nav-item.item {
     padding-right:2rem;
 }
@@ -21,8 +21,6 @@ body {
     padding-right:0;
 }
 
-
-  
 .title{
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
@@ -34,7 +32,7 @@ body {
 }
 
 .container{
-    max-width: 960px;
+    max-width: 100%;
     margin: auto;
     overflow: hidden;
     padding: 4rem 1rem;
@@ -48,7 +46,7 @@ body {
 
 .grid-2{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
 
@@ -72,11 +70,10 @@ body {
     width: 100%;
 }
 
-.carousel-inner  img {
-    object-fit: scale-down;
-    height: 70vh;
-    width: 100%;
-    background: #c9bfb3;
+.carousel-inner img {
+  object-fit: scale-down;
+  height: 50vh;
+  width: 100%;
 }
 
 .services{
@@ -99,7 +96,7 @@ footer p {
     margin: 0;
 }
 
-@media(max-width 560 px){
+@media screen and (min-width: 560 px){
     .header::after{
         height: 50vh;
     }
@@ -118,7 +115,7 @@ footer p {
         display: none;
     }
 
-    .grid-3, .grid-2{
+    .grid-2{
         grid-template-columns: 1fr;
     }
 
@@ -127,7 +124,7 @@ footer p {
     }
 }
     /* Landscape */
-@media(max-height: 500px) {
+@media (max-height: 500px) {
     .header-content .text {
       display: none;
     }
