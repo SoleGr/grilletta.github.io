@@ -22,7 +22,7 @@ body {
 }
 
 .title{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open sans', sans-serif;
     font-size: 2rem;
 }
 
@@ -95,6 +95,8 @@ body {
 
 .admin:after{
     content: "admin\40 grilletta.com.ar";
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 .info:after{
@@ -125,38 +127,6 @@ footer p {
     color:inherit;
   }
 
-  .contact-info {
-    margin-bottom: 25px;
-  }
-  
-
-  .contact-info__icon {
-    margin-right: 20px;
-  }
-  
-
-  .contact-info__icon i, .contact-info__icon span {
-    color: #8f9195;
-    font-size: 27px;
-  }
-
-  .contact-info .media-body h3 {
-    font-size: 16px;
-    margin-bottom: 0;
-    font-size: 16px;
-    color: #2a2a2a;
-  }
-  
-
-  .contact-info .media-body h3 a:hover {
-    color: #B08EAD;
-  }
-  
-
-  .contact-info .media-body p {
-    color: #8a8a8a;
-  }
-  
   @media (max-width:767px) {
     .photo-gallery h2 {
       margin-bottom:25px;
