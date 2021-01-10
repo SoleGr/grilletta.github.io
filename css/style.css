@@ -129,18 +129,17 @@ footer p {
     margin-bottom: 25px;
   }
   
-  /* line 6, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_contact.scss */
+
   .contact-info__icon {
     margin-right: 20px;
   }
   
-  /* line 9, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_contact.scss */
+
   .contact-info__icon i, .contact-info__icon span {
     color: #8f9195;
     font-size: 27px;
   }
-  
-  /* line 17, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_contact.scss */
+
   .contact-info .media-body h3 {
     font-size: 16px;
     margin-bottom: 0;
@@ -148,12 +147,12 @@ footer p {
     color: #2a2a2a;
   }
   
-  /* line 23, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_contact.scss */
+
   .contact-info .media-body h3 a:hover {
     color: #B08EAD;
   }
   
-  /* line 29, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_contact.scss */
+
   .contact-info .media-body p {
     color: #8a8a8a;
   }
