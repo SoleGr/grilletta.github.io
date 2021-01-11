@@ -78,14 +78,14 @@
   </div>
     <!--QUIENES SOMOS-->
 
-    <section class="services text-center bg-warm" id="somos">
+    <section class="services text-center bg-warm" id="somos"> <br>
       <h3 style="color:rgba(0, 0, 0, 0.9);">Quienes somos</h3>
       <div class="container text-center">
-        <div class="grid-2">
-          <div class="center">
+        <div class="container">
+          <div class="container__col-1">
             <img src="img/somos.png" alt="Vicenzo">
           </div>
-        <div>
+        <div class="container__col-2">
 
           <p>Nuestro camino comenzó en Italia en 1918, de la mano de Don Vincenzo Grilletta. Actualmente, nos encontramos trabajando la tercera y cuarta generación de carpinteros en la familia. <br> Si bien en nuestros comienzos los trabajos que realizábamos eran de carpintería de hogar, poco a poco fuimos expandiéndonos e invirtiendo en maquinaria para lograr así satisfacer la demanda de trabajos de mayor escala. <br>
 
@@ -105,28 +105,32 @@
     <!--LINKS PAGINAS IMAGENES-->
     <section class="services text-center" id="servicios">
         <h3 class="title">Algunos trabajos realizados</h3>
-        <div class="container grid-2">
-            <div>
-              <a href="hogar.html" class="nav-link" style="color:rgba(0, 0, 0, 0.9);"><i class="fas fa-home fa-5x" ></i></a>
+        <div class="container">
+            <div class="container__col-1 text-center">
+              <div>
+                <a href="hogar.html" class="nav-link" style="color:rgba(0, 0, 0, 0.9);"><i class="fas fa-home fa-5x" ></i></a>
                 <a href="hogar.html" class="nav-link" style="color:rgba(0, 0, 0, 0.9);"><h3>Hogar</h3></a>
                 <p>Bibliotecas, muebles de cocina, mesas, revestimientos</p>
-            </div>
-            <div>
-              <a href="oficina.html" class="nav-link" style="color:rgba(0, 0, 0, 0.9);"><i class="fas fa-building fa-5x"></i></a>
+              </div>
+              <div>
+               <a href="oficina.html" class="nav-link" style="color:rgba(0, 0, 0, 0.9);"><i class="fas fa-building fa-5x"></i></a>
                 <a href="oficina.html" class="nav-link" style="color:rgba(0, 0, 0, 0.9);"><h3>Oficina</h3></a>
                 <p>Puestos, mesas, greeters, sillas</p>
-            </div>
-            <div>
-              <a href="obras.html" class="nav-link" style="color:rgba(0, 0, 0, 0.9);"><i class="fas fa-hard-hat fa-5x"></i></a>
-                <a href="obras.html" class="nav-link" style="color:rgba(0, 0, 0, 0.9);"><h3>Obras</h3></a>
-                <p>Rosedal de Buenos Aires, Bolsa de Comercio, cafetería</p>
-            </div>
+              </div>
+          </div>
+          <div class="container__col-2 text-center">
+              <div>
+                <a href="obras.html" class="nav-link" style="color:rgba(0, 0, 0, 0.9);"><i class="fas fa-hard-hat fa-5x"></i></a>
+                  <a href="obras.html" class="nav-link" style="color:rgba(0, 0, 0, 0.9);"><h3>Obras</h3></a>
+                  <p>Rosedal de Buenos Aires, Bolsa de Comercio, cafetería</p>
+              </div>
 
-            <div>
-              <a href="servicios.html" class="nav-link" style="color:rgba(0, 0, 0, 0.9);"><i class="fas fa-tools fa-5x"></i></a>
-                <a href="servicios.html" class="nav-link" style="color:rgba(0, 0, 0, 0.9);"><h3>Servicios</h3></a>
-                <p>Corte de placas, Mecanizado CNC, Pegado de cantos</p>
-            </div>
+              <div>
+                <a href="servicios.html" class="nav-link" style="color:rgba(0, 0, 0, 0.9);"><i class="fas fa-tools fa-5x"></i></a>
+                  <a href="servicios.html" class="nav-link" style="color:rgba(0, 0, 0, 0.9);"><h3>Servicios</h3></a>
+                  <p>Corte de placas, Mecanizado CNC, Pegado de cantos</p>
+              </div>
+          </div>
         </div>
     </section>
 
@@ -196,6 +200,7 @@
               <button type="submit" class="btn_3">Enviar</button>
             </form>
           </div>
+        
           <!--Nuestros datos de contacto-->
           <div class="col-lg-4">
             <div class="media contact-info">

@@ -36,6 +36,29 @@ body {
     margin: auto;
     overflow: hidden;
     padding: 4rem 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.container__col-1{
+    width: 50%;
+}
+.container__col-2{ 
+    width: 50%;
+}
+ 
+@media(max-width: 768px){ 
+    .container{
+       flex-direction: column;
+    }
+    // now your first column will take the full width of the parent 
+    // container which will push the second column below it
+    .container__col-1{ 
+       width: 100%;
+    }
+    .container__col-2{
+       width: 100%;
+    }
 }
 
 .embed-container {
