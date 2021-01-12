@@ -145,6 +145,16 @@ footer p {
       padding-top:25px;
       font-size:24px;
     }
+
+    .container2{
+        flex-direction: column;
+     } 
+    .container__col-1{ 
+        width: 100%;
+    }
+    .container__col-2{
+        width: 100%;
+    }
   }
   
   .photo-gallery .intro {
@@ -203,15 +213,4 @@ footer p {
       top: 0;
     }
 
-}
-@media(max-width: 768px){ 
-    .container2{
-       flex-direction: column;
-    } 
-.container__col-1{ 
-       width: 100%;
-}
-.container__col-2{
-       width: 100%;
-    }
 }
