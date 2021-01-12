@@ -33,7 +33,7 @@ body {
 
 
 
-.container2{
+.container{
     max-width: 100%;
     margin: auto;
     overflow: hidden;
@@ -49,6 +49,14 @@ body {
     width: 50%;
 }
 
+.container-ph{
+    max-width: 75%;
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem 1rem;
+
+
+}
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -123,6 +131,8 @@ footer p {
     margin: 0;
 }
 
+
+
 .photo-gallery {
     color:#313437;
     background-color:#fff;
@@ -146,7 +156,7 @@ footer p {
       font-size:24px;
     }
 
-    .container2{
+    .container{
         flex-direction: column;
      } 
     .container__col-1{ 
