@@ -54,8 +54,6 @@ body {
     margin: auto;
     overflow: hidden;
     padding: 4rem 1rem;
-
-
 }
 .embed-container {
     position: relative;
@@ -136,20 +134,20 @@ footer p {
 .photo-gallery {
     color:#313437;
     background-color:#fff;
-  }
+}
   
-  .photo-gallery p {
+.photo-gallery p {
     color:#7d8285;
-  }
-  
-  .photo-gallery h2 {
+}
+
+.photo-gallery h2 {
     font-weight:bold;
     margin-bottom:40px;
     padding-top:40px;
     color:inherit;
-  }
+}
 
-  @media (max-width:767px) {
+@media (max-width:767px) {
     .photo-gallery h2 {
       margin-bottom:25px;
       padding-top:25px;
@@ -158,14 +156,16 @@ footer p {
 
     .container{
         flex-direction: column;
-     } 
+    } 
+    
     .container__col-1{ 
         width: 100%;
     }
+    
     .container__col-2{
         width: 100%;
     }
-  }
+}
   
   .photo-gallery .intro {
     font-size:16px;
