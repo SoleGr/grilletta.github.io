@@ -185,7 +185,19 @@ footer p {
     padding-bottom:30px;
   }
   
-  
+  .lightboximage  {
+    display: inline-flex;
+    flex-direction: column;
+    text-decoration: none;
+    }
+    
+    .caption {
+      font-family: sans-serif;
+      color: black;
+      font-weight: bold;
+      display: inline-block;
+      padding-top: .5em;
+    }
 
 @media screen and (min-width: 560 px){
     .header::after{
