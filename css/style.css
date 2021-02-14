@@ -5,6 +5,30 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    outline: none;
+    text-decoration: none;
+
+  }
+  
+  a:link {
+    color: #000000;
+  }
+  
+  a:visited {
+    color: #505050;
+  }
+  
+  
+  a:hover {
+    background: #EFEFEF;
+  }
+  
+  a:active {
+    background: #90A3A7;
+    color: #CDFEAA;
+  }
+  
 .navbar.navbar-light.navbar-expand-lg.bg-white.page-navbar {
     box-shadow:0 4px 10px rgba(0, 0, 0, 0.1);
 }
